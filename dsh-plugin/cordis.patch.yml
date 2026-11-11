@@ -1,0 +1,7 @@
+# dsh-client-sales-coach bundle patch: 把技能注册行插入当前 profile。
+# 插件本体（lib/index.js）通过 ctx.skills 注册 skill，无浏览器端。
+- insert:
+    - id: client-sales-coach
+      name: 'dsh-client-sales-coach'
+      config:
+        enabled: true

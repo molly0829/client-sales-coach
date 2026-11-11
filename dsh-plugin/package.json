@@ -1,0 +1,35 @@
+{
+  "name": "dsh-client-sales-coach",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 技能插件：B2B 客户聊天教练（采购阶段诊断、信号识别、止损决策、客户档案）",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*.js",
+    "skills/**/*",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "skill",
+    "b2b",
+    "sales",
+    "crm"
+  ],
+  "license": "MIT"
+}

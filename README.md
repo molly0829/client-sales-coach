@@ -54,9 +54,17 @@
 │               └── profile-template.md    # 客户档案模板
 ├── samples/
 │   └── demo-chat.txt                      # 示例客户聊天记录（虚构）
+├── dsh-plugin/                            # DSH 插件包（把技能注册进 DSH）
+│   ├── package.json
+│   ├── cordis.patch.yml
+│   ├── lib/index.js
+│   ├── locale/en.json · zh.json
+│   ├── icon.svg
+│   └── skills/client-sales-coach/         # 插件内技能正文与 references
 └── tools/
     ├── chat.ps1                           # 直连 DeepSeek 的命令行入口
-    └── publish-github.ps1                 # 一键发布到 GitHub（无需装 git）
+    ├── publish-github.ps1                 # 首次发布到 GitHub（无需装 git）
+    └── update-github.ps1                  # 已有仓库上推送一次更新
 ```
 
 ---
@@ -110,6 +118,18 @@ $env:DEEPSEEK_API_KEY = "sk-你的key"
 
 不装任何东西，直接把 `SKILL.md` 的内容复制到任意大模型对话框，再粘贴客户聊天记录即可。
 references 目录按需追加（先给 `chat-analysis.md`，需要时再给其他）。
+
+### 方式四：装进 DeepSeek Harness（DSH 插件）
+
+`dsh-plugin/` 是一个标准的 DSH Host 插件包：通过 `ctx.skills.register()` 把技能注册进会话，
+在 DSH 的「设置 → 插件」里可以启用、禁用、移除。
+
+```text
+plugin_manager install_bundle target = <本目录>/dsh-plugin
+```
+
+装好后新会话的技能目录里会出现 `client-sales-coach`，粘贴客户记录即自动命中。
+插件内的技能正文在 `dsh-plugin/skills/client-sales-coach/`，改完重启 DSH 生效。
 
 ---
 
