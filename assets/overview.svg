@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="客户聊天教练概览">
+  <rect width="1200" height="360" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+
+  <text x="48" y="66" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="36" font-weight="700" fill="#111827">客户聊天教练</text>
+  <text x="48" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="17" fill="#4b5563">B2B 企业软件销售版 · 粘贴一段客户聊天记录，得到可直接执行的下一步</text>
+
+  <!-- 七阶段流程 -->
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+    <rect x="48" y="132" width="150" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="123" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">线索</text>
+    <rect x="208" y="132" width="150" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="283" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">触达</text>
+    <rect x="368" y="132" width="150" height="44" rx="10" fill="#dbe6f3" stroke="#8fa9c8"/>
+    <text x="443" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">需求挖掘</text>
+    <rect x="528" y="132" width="150" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="603" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">方案评估</text>
+    <rect x="688" y="132" width="150" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="763" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">商务谈判</text>
+    <rect x="848" y="132" width="150" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="923" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">签约</text>
+    <rect x="1008" y="132" width="144" height="44" rx="10" fill="#eef2f7" stroke="#c7d2e0"/>
+    <text x="1080" y="160" font-size="16" fill="#1f3a5f" text-anchor="middle">交付续约</text>
+    <text x="443" y="196" font-size="12" fill="#b45309" text-anchor="middle">最危险的瓶颈：客户说“挺好，有需要联系你”，然后消失</text>
+  </g>
+
+  <!-- 五段输出 -->
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+    <rect x="48" y="222" width="1104" height="96" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="72" y="254" font-size="15" font-weight="600" fill="#111827">每次分析固定五段</text>
+    <text x="72" y="290" font-size="15" fill="#334155">📍 定位   →   🔍 信号解读   →   ⚠️ 你的问题   →   💬 建议回复（可直接复制）   →   🎯 下一步动作</text>
+  </g>
+
+  <!-- 三种用法 -->
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="13" fill="#64748b">
+    <text x="48" y="342">三种用法：Claude Code 技能 · DeepSeek Harness 插件 · 任意大模型对话</text>
+    <text x="1152" y="342" text-anchor="end">MIT License</text>
+  </g>
+</svg>

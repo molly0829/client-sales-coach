@@ -1,5 +1,11 @@
 # 客户聊天教练 · Client Sales Coach（B2B 销售版）
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DeepSeek Harness plugin](https://img.shields.io/badge/DeepSeek%20Harness-plugin-1f3a5f)](dsh-plugin)
+[![Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/molly0829/client-sales-coach/releases/tag/v1.0.0)
+
+![客户聊天教练概览](assets/overview.svg)
+
 一个面向 **B2B 企业软件销售** 的 AI 教练技能包。
 
 它把销售全流程拆成可执行的判断：**判断采购阶段、读懂客户真实态度、指出沟通失误、给出能直接发出去的回复、知道什么时候该止损**。粘贴一段客户聊天记录就能用，不需要装任何软件。
@@ -35,6 +41,8 @@
 ├── README.md
 ├── LICENSE                                # MIT
 ├── .gitignore
+├── assets/
+│   └── overview.svg                       # README 顶部概览图
 ├── .claude/
 │   ├── commands/
 │   │   └── client-sales-coach.md          # /client-sales-coach 斜杠命令入口
