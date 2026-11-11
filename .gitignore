@@ -1,0 +1,15 @@
+# 客户档案与本地数据，不要提交到公开仓库
+profiles/
+*.local.md
+
+# 密钥与配置
+.env
+.env.*
+*.key
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
